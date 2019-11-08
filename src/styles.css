@@ -40,17 +40,20 @@ main {
   border-radius: 30px;
 }
 
-.choice-header:nth-last-child() {
+.choice-header .view {
   color: red;
+  font-size: 12px;
 }
 .menu-choice {
   width: 100%;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .menu-choice .choice-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
 }
 
@@ -147,13 +150,13 @@ main {
 }
 
 .recipes-header {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .recipes .recipes-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   background-color: ivory;
   border-radius: 5px;
   height: 70px;
