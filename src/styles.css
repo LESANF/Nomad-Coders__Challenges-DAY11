@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: ivory;
+}
+
+.header,
+main {
+  background-color: #dad9d8;
+  padding: 0 15px;
+}
+
+.header {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.screen {
+  width: 400px;
+  height: 815px;
+  background-color: white;
+  padding: 15px 20px 15px 20px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.menu-choice {
+  width: 100%;
+  font-size: 15px;
+}
+
+.menu-choice .choice-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.menu-choice .choice-photo {
+  width: 100%;
+}
+
+.top__photos {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bottom_photos {
+  display: flex;
+}
+
+.top-one {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0) 10%,
+      rgba(20, 20, 20, 0.15) 25%,
+      rgba(20, 20, 20, 0.25) 50%,
+      rgba(20, 20, 20, 0.5) 75%,
+      rgba(20, 20, 20, 0.75) 100%
+    ),
+    url("../images/1.jpg");
+  width: 200px;
+  height: 150px;
+  margin-right: 12px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+}
+.top-two {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0) 10%,
+      rgba(20, 20, 20, 0.15) 25%,
+      rgba(20, 20, 20, 0.25) 50%,
+      rgba(20, 20, 20, 0.5) 75%,
+      rgba(20, 20, 20, 0.75) 100%
+    ),
+    url("../images/2.jpg");
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+}
+.bottom-one {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0) 10%,
+      rgba(20, 20, 20, 0.15) 25%,
+      rgba(20, 20, 20, 0.25) 50%,
+      rgba(20, 20, 20, 0.5) 75%,
+      rgba(20, 20, 20, 0.75) 100%
+    ),
+    url("../images/3.jpg");
+  width: 200px;
+  height: 150px;
+  margin-right: 12px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+}
+.bottom-two {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0) 10%,
+      rgba(20, 20, 20, 0.15) 25%,
+      rgba(20, 20, 20, 0.25) 50%,
+      rgba(20, 20, 20, 0.5) 75%,
+      rgba(20, 20, 20, 0.75) 100%
+    ),
+    url("../images/4.jpg");
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+}
+
+.recipes {
+  width: 100%;
+}
+
+.recipes-header {
+  margin-bottom: 10px;
+}
+
+.recipes .recipes-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: ivory;
+  border-radius: 5px;
+  height: 70px;
+  align-items: center;
+  padding: 0 15px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.nav {
+  background-color: white;
+  width: 371px;
+  height: 80px;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
