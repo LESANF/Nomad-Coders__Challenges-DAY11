@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -29,13 +33,16 @@ main {
 
 .screen {
   width: 400px;
-  height: 815px;
+  font-weight: 700;
   background-color: white;
   padding: 15px 20px 15px 20px;
   position: relative;
   border-radius: 30px;
 }
 
+.choice-header:nth-last-child() {
+  color: red;
+}
 .menu-choice {
   width: 100%;
   font-size: 15px;
@@ -168,4 +175,16 @@ li {
   left: 15px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+.left-name {
+  font-weight: bold;
+}
+
+.left-dis {
+  opacity: 0.5;
+}
+
+.right i {
+  color: red;
 }
